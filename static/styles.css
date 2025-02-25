@@ -1,0 +1,88 @@
+/* static/styles.css */
+body {
+    background-image: url('background-image.jpg'); /* Ensure this is correct */
+    font-family: 'Lucida Calligraphy', cursive; /* Use Lucida Calligraphy */
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Dark text color for better visibility */
+
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height */
+}
+
+h1 {
+    font-family: 'Lucida Calligraphy', cursive; /* Specific font for h1 */
+    font-weight: bold; /* Ensure h1 is bold */
+}
+.chat-container {
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background-color:lightgreen; /* Light background for chat container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 80vh; /* Set height of chat container */
+}
+
+#chatbox {
+    flex: 1; /* Allow chatbox to grow */
+    overflow-y: auto; /* Scrollable */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Light background for chatbox */
+}
+
+.message {
+    margin: 5px 0; /* Space between messages */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners for message bubbles */
+    max-width: 70%; /* Limit width of message bubbles */
+    clear: both; /* Clear floats */
+    font-family: 'Lucida Calligraphy', cursive; /* Specific font for messages */
+    font-weight: bold;
+}
+
+.message.user {
+    background-color: #dcf8c6; /* User message bubble color */
+    align-self: flex-end; /* Align user messages to the right */
+    margin-left: auto; /* Push user messages to the right */
+}
+
+.message.bot {
+    background-color: #ffffff; /* Bot message bubble color */
+    align-self: flex-start; /* Align bot messages to the left */
+}
+
+#user_input {
+    width: calc(100% - 100px); /* Full width minus button width */
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent input background */
+    color: #333; /* Text color */
+    margin-right: 10px; /* Space between input and button */
+}
+
+button {
+    width: 80px; /* Fixed width for button */
+    padding: 10px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color:blue; /* WhatsApp green */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #128C7E; /* Darker green on hover */
+}
+
+input:focus {
+    outline: none; /* Remove outline on focus */
+    border: 1px solid #25D366; /* Green border on focus */
+}
