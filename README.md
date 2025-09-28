@@ -1,6 +1,6 @@
 # 🚀 TalkyTech Chatbot
 
-![Chatbot Banner](output/output.png)
+output/TalkyTech output.png
 
 A **fun and interactive rule-based chatbot** built with **Python** and **Flask**. TalkyTech can respond to greetings, answer basic questions, tell jokes, give advice, and more!  
 
@@ -20,7 +20,7 @@ A **fun and interactive rule-based chatbot** built with **Python** and **Flask**
 
 ## 📸 Demo / Output
 
-![Chatbot Output](output/output.png)
+output/TalkyTech output.png
 
 **Example Interaction:**
 You: Hello
