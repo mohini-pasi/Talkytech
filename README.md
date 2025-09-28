@@ -75,6 +75,8 @@ TalkyTech/
 │   └─ images/           # Images used in frontend
 ├─ output/               # Screenshot of chatbot output
 │   └─ output.png
+    └─TalkyTech_output.png
+
 ```
 
 ## 🔮 Future Improvements
