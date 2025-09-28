@@ -1,0 +1,108 @@
+/* static/styles.css */
+
+body {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: 'Lucida Calligraphy', cursive;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Lucida Calligraphy', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: #03a9f4;
+}
+
+.chat-container {
+  width: 90%;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark translucent background */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+#chatbox {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 75%;
+  line-height: 1.5;
+  animation: fadeIn 0.3s ease;
+}
+
+.message.user {
+  background-color: #4caf50;
+  color: #fff;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message.bot {
+  background-color: #03a9f4;
+  color: #fff;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.input-container {
+  display: flex;
+}
+
+#user_input {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-family: 'Lucida Calligraphy', cursive;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#user_input:focus {
+  outline: none;
+  border: 2px solid #03a9f4;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #03a9f4;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Lucida Calligraphy', cursive;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0288d1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
