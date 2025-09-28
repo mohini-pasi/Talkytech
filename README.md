@@ -32,10 +32,6 @@ Bot: ✨ Nice to meet you, Mohini! How can I assist you?
 You: Tell me a joke
 Bot: 😆 Want to hear a joke? Just say "tell me a joke"! 🤪
 
-yaml
-Copy code
-
----
 
 ## 🛠 Installation & Setup
 
@@ -43,23 +39,28 @@ Copy code
 ```bash
 git clone https://github.com/mohini-pasi/Talkytech.git
 cd Talkytech
+```
 Install dependencies:
 
-bash
+```bash
 Copy code
 pip install flask
+```
 Run the application:
 
-bash
+```bash
 Copy code
 python app.py
+```
 Open your browser and go to:
 
-cpp
+```cpp
 Copy code
 http://127.0.0.1:5000/
+```
+
 🗂 Project Structure
-php
+```php
 Copy code
 TalkyTech/
 │
@@ -72,7 +73,7 @@ TalkyTech/
 │   └─ images/           # Images used in frontend
 ├─ output/               # Screenshot of chatbot output
 │   └─ output.png
-
+```
 
 ##🔮 Future Improvements
 Implement NLP / AI for smarter responses
@@ -101,7 +102,7 @@ Code is modular, making it easy to add new responses or upgrade to AI-based
 
 ## Made with ❤️ by Mohini Pasi
 
-yaml
+```yaml
 Copy code
 
 ---
@@ -109,3 +110,4 @@ Copy code
 If you want, I can also make a **GitHub-ready version with badges, colors, and a better layout** so it looks professional and eye-catching.  
 
 Do you want me to do that?
+```
