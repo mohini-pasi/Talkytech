@@ -3,6 +3,7 @@
 
 
 
+
 A **fun and interactive rule-based chatbot** built with **Python** and **Flask**. TalkyTech can respond to greetings, answer basic questions, tell jokes, give advice, and more!  
 
 > Note: This project is **rule-based**, so responses are generated using keywords. No AI/NLP is currently implemented, but it’s ready for future upgrades.
