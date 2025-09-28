@@ -21,7 +21,7 @@ A **fun and interactive rule-based chatbot** built with **Python** and **Flask**
 
 ## 📸 Demo / Output
 
-output/TalkyTech output.png
+![TalkyTech Output](output/TalkyTech_Output.png)
 
 **Example Interaction:**
 You: Hello
