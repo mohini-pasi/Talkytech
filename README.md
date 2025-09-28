@@ -1,5 +1,5 @@
 # 🚀 TalkyTech Chatbot
-![TalkyTech_Output](output/TalkyTech_Output.png)
+![TalkyTech_Output](output/TalkyTech_output.png)
 
 
 
