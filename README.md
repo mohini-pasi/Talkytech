@@ -59,7 +59,7 @@ Copy code
 http://127.0.0.1:5000/
 ```
 
-🗂 Project Structure
+## 🗂 Project Structure
 ```php
 Copy code
 TalkyTech/
@@ -75,7 +75,7 @@ TalkyTech/
 │   └─ output.png
 ```
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 Implement NLP / AI for smarter responses
 
 Add voice interaction
@@ -84,7 +84,7 @@ Enhance UI with chat animations and emojis
 
 Integrate database to remember past conversations
 
-##⚡ How it Works
+## ⚡ How it Works
 User types a message in the chatbox
 
 Flask backend receives input via /get_response route
@@ -95,12 +95,12 @@ Bot selects the best response from predefined responses in long_response.py
 
 Response is sent back to the frontend and displayed in real-time
 
-##📌 Notes
+## 📌 Notes
 This project is a rule-based chatbot; no machine learning or NLP is used yet
 
 Code is modular, making it easy to add new responses or upgrade to AI-based
 
-## Made with ❤️ by Mohini Pasi
+##  Made with ❤️ by Mohini Pasi
 
 ```yaml
 Copy code
